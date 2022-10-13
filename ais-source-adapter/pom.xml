@@ -61,7 +61,8 @@
     <dependency>
       <groupId>org.aeonbits.owner</groupId>
       <artifactId>owner</artifactId>
-    </dependency>
+		<version>1.0.12</version>
+	</dependency>
 
     <!-- test dependencies -->
     <dependency>
