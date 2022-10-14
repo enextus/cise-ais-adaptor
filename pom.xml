@@ -154,7 +154,7 @@
 						<phase>validate</phase>
 						<configuration>
 							<configLocation>checkstyle.xml</configLocation>
-<!--							<encoding>UTF-8</encoding>-->
+							<!--							<encoding>UTF-8</encoding> nicht zulaessig hier -->
 							<consoleOutput>true</consoleOutput>
 							<failsOnError>true</failsOnError>
 						</configuration>
