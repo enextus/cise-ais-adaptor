@@ -45,8 +45,7 @@ import java.io.Serializable;
 @SuppressWarnings("unused")
 public class RestResult implements Serializable {
 
-	// life, the universe and everything.
-	// The Hitchhiker's Guide to the Galaxy
+	// life, the universe and the everything.
 	private static final long serialVersionUID = 42L;
 
 	private final Integer code;
