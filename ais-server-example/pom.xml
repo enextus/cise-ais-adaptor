@@ -51,7 +51,8 @@
     <dependency>
       <groupId>dk.tbsalling</groupId>
       <artifactId>aismessages</artifactId>
-    </dependency>
+		<version>3.2.4</version>
+	</dependency>
 
   </dependencies>
 

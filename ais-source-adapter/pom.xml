@@ -23,74 +23,79 @@
   ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
   ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-  --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <artifactId>cise-ais-adaptor</artifactId>
-    <groupId>eu.europa.ec.jrc.marex</groupId>
-    <version>1.0-SNAPSHOT</version>
-  </parent>
+	<parent>
+		<artifactId>cise-ais-adaptor</artifactId>
+		<groupId>eu.europa.ec.jrc.marex</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
 
-  <artifactId>cise-ais-source-adapter</artifactId>
+	<artifactId>cise-ais-source-adapter</artifactId>
 
-  <dependencies>
+	<dependencies>
 
-    <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-    </dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+		</dependency>
 
-    <dependency>
-      <groupId>commons-beanutils</groupId>
-      <artifactId>commons-beanutils</artifactId>
-    </dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+		</dependency>
 
-    <!-- internal dependencies -->
-    <dependency>
-      <groupId>eu.europa.ec.jrc.marex</groupId>
-      <artifactId>cise-ais-domain</artifactId>
-    </dependency>
+		<!-- internal dependencies -->
+		<dependency>
+			<groupId>eu.europa.ec.jrc.marex</groupId>
+			<artifactId>cise-ais-domain</artifactId>
+		</dependency>
 
-    <!-- external dependencies -->
-    <dependency>
-      <groupId>dk.tbsalling</groupId>
-      <artifactId>aismessages</artifactId>
-    </dependency>
+		<!-- external dependencies -->
+		<dependency>
+			<groupId>dk.tbsalling</groupId>
+			<artifactId>aismessages</artifactId>
+			<version>3.2.4</version>
+		</dependency>
 
-    <dependency>
-      <groupId>org.aeonbits.owner</groupId>
-      <artifactId>owner</artifactId>
-		<version>1.0.12</version>
-	</dependency>
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
+			<artifactId>owner</artifactId>
+			<version>1.0.12</version>
+		</dependency>
 
-    <!-- test dependencies -->
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-core</artifactId>
-      <scope>test</scope>
-    </dependency>
+		<!-- test dependencies -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<scope>test</scope>
+			<version>2.2</version>
+		</dependency>
 
-    <dependency>
-      <groupId>io.projectreactor</groupId>
-      <artifactId>reactor-test</artifactId>
-      <version>3.4.23</version>
-      <scope>test</scope>
-    </dependency>
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<version>3.4.23</version>
+			<scope>test</scope>
+		</dependency>
 
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-	</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 
-    <dependency>
-      <groupId>co.unruly</groupId>
-      <artifactId>java-8-matchers</artifactId>
-      <scope>test</scope>
-    </dependency>  </dependencies>
+		<dependency>
+			<groupId>co.unruly</groupId>
+			<artifactId>java-8-matchers</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 </project>
