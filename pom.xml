@@ -92,17 +92,14 @@
 						<target>17</target>
 					</configuration>
 				</plugin>
-
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.2.2</version>
 					<configuration>
 						<archive>
 							<manifest>
-								<addDefaultImplementationEntries>true
-								</addDefaultImplementationEntries>
-								<addDefaultSpecificationEntries>true
-								</addDefaultSpecificationEntries>
+								<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+								<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 							</manifest>
 						</archive>
 					</configuration>
@@ -119,7 +116,6 @@
 							<filter>
 								<artifact>*:*</artifact>
 								<excludes>
-									// add it because to much warnings
 									<exclude>module-info.class</exclude>
 									<exclude>META-INF/*.SF</exclude>
 									<exclude>META-INF/*.DSA</exclude>
